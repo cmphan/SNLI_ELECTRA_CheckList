@@ -1,13 +1,10 @@
 # fp-dataset-artifacts
 
-Project by Kaj Bostrom, Jifan Chen, and Greg Durrett. Code by Kaj Bostrom and Jifan Chen.
-
+Project in CS388: Natural Language Processing class at UT Austin by prof Greg Durrett
 ## Getting Started
 You'll need Python >= 3.6 to run the code in this repo.
 
 First, clone the repository:
-
-`git clone git@github.com:gregdurrett/fp-dataset-artifacts.git`
 
 Then install the dependencies:
 
@@ -44,6 +41,12 @@ For more details, see [this doc](https://huggingface.co/transformers/v4.0.1/inst
 
 An ELECTRA-small based NLI model trained on SNLI for 3 epochs (e.g. with the command above) should achieve an accuracy of around 89%, depending on batch size.
 An ELECTRA-small based QA model trained on SQuAD for 3 epochs should achieve around 78 exact match score and 86 F1 score.
+
+## CheckList
+
+The MFT test performed on the NLP model in the paper is CheckList in the following repo: 
+
+`https://github.com/marcotcr/checklist`
 
 ## Working with datasets
 This repo uses [Huggingface Datasets](https://huggingface.co/docs/datasets/) to load data.
